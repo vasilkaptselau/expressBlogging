@@ -2,10 +2,10 @@ const card = post => {
 	return `
 	<div class="card blue-grey darken-1 z-depth-5">
 		<div class="card-content white-text">
- <div class="card-image">
-<img src="../images/angular.jpg">
+                      <div class="card-image">
+                           <img src="../images/angular.jpg">
 			<span class="card-title grey z-depth-3 center">${post.title}</span>
-</div>
+                </div>
 			<p style="white-space: pre-line;">${post.text}</p>
 			<small>${new Date(post.date).toLocaleDateString()}</small>
 		</div>
